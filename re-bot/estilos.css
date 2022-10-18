@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue);
+@font-face {
+    font-family: 'Fonte1';
+    src: url(https://fonts.gstatic.com/s/bebasneue/v9/JTUSjIg69CK48gW7PXoo9Wdhyzbi.woff2);
+}
+
+/*[ #00000 | #003D06 | #A6FC30 | #9536E3 | #2C0B80 ]*/
+
+body {
+    background-color: #000000; 
+    color: rgba(166, 252, 48);
+    user-select: none;
+}
+
+h1 {
+    font-family: 'FonteLogo', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    margin: 0px;
+    text-shadow: 5px 5px 10px #003D06;
+}
+
+h2 {
+    font-family: "Kollekif", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #9536E3;
+    text-shadow: 5px 5px 10px #2C0B80;
+    margin: 0px;
+}
+
+h3 {
+    font-family: "Kollekif", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #2C0B80;
+    margin: 70px 0px 0px 0px;
+}
+
+p {
+    color: white;
+    font-size: 28px;
+    margin: 50px 125px 0px 125px;
+    text-align: justify;
+    font-family: "Kollekif", Arial;
+}
+
+#titulo {
+	text-align: center;
+}
+
+/*Formatação do Menu*/
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute; 
+    top: 0px;
+    left: 960px;
+}
+
+nav#menu li {
+    color: #000000;
+    display: inline-block;
+    background-color: #9536E3;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #2C0B80;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: white;
+}
+
+/*Rodapé*/
+footer#rodape p {
+    text-align: center;
+}
+
+/*Cabeçalho*/
+#cabecalho {
+    /*margin: auto;
+    width: 500px;*/
+    background-color: #000000;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #000000;
+    box-shadow: 1px 1px 32px #9536E3;
+}
